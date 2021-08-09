@@ -32,3 +32,32 @@ def somatorioKJ(k, j):
     if (j == k):
         return k
     return j + somatorioKJ(k, j - 1)
+
+#5
+def palindrome(s):
+    if(len(s) <= 1):
+        return True
+    if(s[0] != s[len(s)-1]):
+        return False
+    palindrome(s[1:-1])
+
+#7
+def somatorioArray(list):
+    if len(list) == 0:
+        return 0
+    list.pop() + somatorio(list)
+
+#8
+def maiorElemento(list):
+    if(len(list) == 1):
+        return list.pop()
+    auxA = list.pop()
+    auxB = maiorElemento(list)
+    if(auxA >= auxB):
+        return auxA
+    else:
+        return auxB
+
+vet = [-5,66,2,-333,4]
+
+print(maiorElemento(vet))

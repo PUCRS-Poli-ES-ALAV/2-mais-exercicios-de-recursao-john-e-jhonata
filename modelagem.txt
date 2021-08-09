@@ -49,4 +49,35 @@ Recursão:
 	j = k -> k
 	j > k -> j + somatorioKJ(k, j - 1)
 
+=============================================
 
+#5 Palindrome
+Situações de Erro:
+    N/A
+Situações de Parada:
+    len(s) <=1 --> true
+    s[0] != s[len(s)-1] --> false
+    primeiro char
+Recursão:
+	len(s) > 1 --> Palindrome(s[1:-1])
+
+=============================================
+
+#7 Somatorio ArrayList
+Situações de Erro:
+    N/A
+Situações de parada:
+    len(list) == 0 --> 0
+Recursão:
+    if(len(list) > 0) --> list.pop() + SomatorioArrayList(list)
+
+=============================================
+    
+#8 Maior elemento
+Situações de Erro:
+    N/A
+Situações de parada:
+    len(list) == 1 --> list.pop()
+Recursão:
+    if(list.pop >= maiorElemento(list)) --> list.pop
+    if(list.pop < maiorElemento(list)) --> maiorElemento(list)
