@@ -1,0 +1,32 @@
+Ex 1 - fatorial
+
+Situações de Erro: 
+    n < 0 --> exception
+Situações de parada: 
+    n == 0 --> 1
+    n == 1 --> 1
+Recursão:
+    n >= 2
+    n == 2 --> 2* fatorial(1)
+
+============================================
+
+Ex 2 Somatório
+
+Situações de Erro:
+    n < 0 --> Exception
+Situações de parada:
+    n == 0 --> 0
+Recursão:
+    n >=1 --> n + somatório(n-1)
+=============================================
+
+Ex 3 Fibonacci
+
+Situações de Erro:
+    n < 1 --> Exception
+Situações de parada:
+    n == 1 --> 0
+    n == 2 --> 1
+Recursão:
+    n > 2 --> fibonacci(n - 1) + fibonacci(n - 2)
