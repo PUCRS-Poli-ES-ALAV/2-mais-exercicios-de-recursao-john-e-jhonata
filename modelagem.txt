@@ -32,6 +32,7 @@ Recursão:
     n > 2 --> fibonacci(n - 1) + fibonacci(n - 2)
 
 =============================================
+
 Ex 4 Somatorio entre dois números
 
 int somatorioKJ(k, j)
