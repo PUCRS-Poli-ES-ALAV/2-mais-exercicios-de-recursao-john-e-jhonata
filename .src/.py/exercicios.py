@@ -32,3 +32,9 @@ def somatorioKJ(k, j):
     if (j == k):
         return k
     return j + somatorioKJ(k, j - 1)
+
+#6
+def convBase2(n):
+    if (n < 1):
+        return ''
+    return str(n % 2) + str(convBase2(n / 2))

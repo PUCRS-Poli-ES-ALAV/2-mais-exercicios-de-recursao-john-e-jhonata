@@ -48,4 +48,19 @@ Recursão:
 	j = k -> k
 	j > k -> j + somatorioKJ(k, j - 1)
 
+=============================================
+Ex 6 Conversão decimal para base2
+
+int convBase2(n)
+
+Ex,.: n=2 -> 01; 
+
+Situações de Erro:
+    Não tem
+Situações de Parada:
+    N menor que 1
+Recursão:
+	n < 1 -> ''
+	n > 1 -> n % 2 + convBase2(n/2)
+
 
