@@ -26,8 +26,8 @@ def fibonacci(n):
 
 #4
 def somatoioKJ(k, j):
-    if (j < k)
+    if (j < k):
         raise Exception('Somatório exedeu limite inferior')
-    if (j = k)
+    if (j = k):
         return k
     return j + somatorioKJ(k, j - 1)
