@@ -8,11 +8,12 @@ def fatorial(n):
 
 #2
 def somatorio(n):
-    if(n < 0):
-        raise Exception('Menor que zero')
     if(n == 0):
         return 0
-    return n + somatorio(n- 1)
+    if(n > 0):
+        return n + somatorio(n-1)
+    if(n < 0):
+        return n + somatorio(n+1)
 
 #3
 def fibonacci(n):

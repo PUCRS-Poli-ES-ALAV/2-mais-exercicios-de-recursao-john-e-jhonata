@@ -14,11 +14,13 @@ Recursão:
 Ex 2 Somatório
 
 Situações de Erro:
-    n < 0 --> Exception
+    N/A
 Situações de parada:
     n == 0 --> 0
 Recursão:
-    n >=1 --> n + somatório(n-1)
+    n > 0 --> n + somatório(n-1)
+    n < 0 --> n + somatório(n+1)
+
 =============================================
 
 Ex 3 Fibonacci
