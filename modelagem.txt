@@ -30,3 +30,20 @@ Situações de parada:
     n == 2 --> 1
 Recursão:
     n > 2 --> fibonacci(n - 1) + fibonacci(n - 2)
+
+=============================================
+Ex 4 Somatorio entre dois números
+
+int somatorioKJ(k, j)
+
+Ex,.: k=10, j=19; 
+
+Situações de Erro:
+    Somatório passar dos limites k e j
+Situações de Parada:
+    J ser menor que K
+Recursão:
+	j = k -> k
+	j > k -> j + somatorioKJ(k, j - 1)
+
+
