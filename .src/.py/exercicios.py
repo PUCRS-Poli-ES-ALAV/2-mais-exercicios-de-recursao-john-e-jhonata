@@ -28,11 +28,12 @@ def fibonacci(n):
 #4
 def somatorioKJ(k, j):
     if (j < k):
-        raise Exception('Somatório exedeu limite inferior')
+        return somatorioKJ(j, k)
     if (j == k):
         return k
     return j + somatorioKJ(k, j - 1)
 
+<<<<<<< HEAD
 #5
 def palindrome(s):
     if(len(s) <= 1):
@@ -61,3 +62,10 @@ def maiorElemento(list):
 vet = [-5,66,2,-333,4]
 
 print(maiorElemento(vet))
+=======
+#6
+def convBase2(n):
+    if (n < 1):
+        return ''
+    return str(n % 2) + str(convBase2(n / 2))
+>>>>>>> 19f09694e82823abecf2bd4c5697416bc03bb061
