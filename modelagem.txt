@@ -62,15 +62,6 @@ Recursão:
 
 =============================================
 
-#7 Somatorio ArrayList
-Situações de Erro:
-    N/A
-Situações de parada:
-    len(list) == 0 --> 0
-Recursão:
-    if(len(list) > 0) --> list.pop() + SomatorioArrayList(list)
-
-    
 Ex 6 Conversão decimal para base2
 
 int convBase2(n)
@@ -85,6 +76,15 @@ Recursão:
 	n < 1 -> ''
 	n > 1 -> n % 2 + convBase2(n/2)
 
+=============================================
+
+#7 Somatorio ArrayList
+Situações de Erro:
+    N/A
+Situações de parada:
+    len(list) == 0 --> 0
+Recursão:
+    if(len(list) > 0) --> list.pop() + SomatorioArrayList(list)
 
 =============================================
     
