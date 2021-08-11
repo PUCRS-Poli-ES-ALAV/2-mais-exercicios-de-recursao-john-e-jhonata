@@ -63,3 +63,12 @@ def maiorElemento(list):
         return auxA
     else:
         return auxB
+
+
+#10
+def nroDigit(n):
+    if (n/10 < 1 and n/10 > -1):     
+        return 1 
+    return 1 + nroDigit(n / 10)
+
+print(nroDigit(-99999))
